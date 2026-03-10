@@ -1,0 +1,66 @@
+body {
+font-family: 'Nunito', 'M PLUS Rounded 1c', sans-serif;
+  background: linear-gradient(180deg, #ffffff, #eef4ff);
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #fe8686, #fedb83, #6a8bff, #8bffcb);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2{
+    font-size: 30px;
+    background: linear-gradient(90deg, #fe8686, #fedb83, #6a8bff, #8bffcb);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    background: linear-gradient(90deg, #91a2fa, #7af6c0);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 30px 12px rgba(253, 152, 152, 0.6);
+}
+
+.aboutMeComment{
+    border: #ffffff 1px solid;
+    padding: 20px;
+
+}
+
+.bg-img {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  height: 75%;
+  object-fit: cover;
+  opacity: 0.08; 
+  z-index: 1;
+  animation: float-bg 5s ease-in-out infinite alternate;
+}
+
+.img-behind {
+  position: relative;
+  overflow: hidden; /* はみ出し防止 */
+}
+
+@keyframes float-bg {
+  0%   { transform: translate(0, 0); }
+  50%  { transform: translate(-10px, -5px); }
+  100% { transform: translate(0, -10px); }
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <body>
+      
+      <h1>My Portfolio</h1>
+      <br>
+      <img src="img/myphoto.JPG" class="profile-img">
+
+
+  <section id="about" class="container py-5">
+    <h2 class="mb-4">About Me！</h2>
+
+    <div class="card img-behind">
+      <img src="img/sun.png" class="bg-img">
+      <p class="aboutMeComment" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-once="true">
+        はじめまして、<strong>坂本有輝</strong>と申します。
+        <br><br> 
+        現在はパソコン教室でインストラクターとして4年間勤務し、延べ1000名以上のサポートをしてきました。<br>
+        パソコンの基本操作からVBAを用いた業務改善の提案なども行い、ユーザー視点で物事を捉える力と改善提案、コミュニケーション力を磨いてきました。
+        <br><br>
+        事務作業では、Excel VBAやGoogle Apps Scriptを用いた業務改善に取り組んできました。<br>
+        マクロの記録でVLOOKUPを自動化するところから始まり、for文、辞書など、段階的にマクロを発展させてきました。<br>
+        作業時間の短縮やヒューマンエラーを削減し、現場の効率化に貢献してきました。
+        <br><br>
+        以前には C++ を用いた Windows アプリケーション開発にも携わり、期間として1年ほどの新人経験ではありますが、
+        機能改修や不具合修正などの保守業務を通して開発の基礎に触れたこともあります。
+        <br><br>
+        現在はJavaScriptやReactを中心に学習を進めており、
+        OSを問わず動作するWebアプリケーションの可能性に強く魅力を感じています。Reactを用いたアプリケーションも制作し、GitHubに公開しています。Copilotに助けられながらではありますが、アプリとして仕上げるところまで取り組みました。
+        <br><br>
+        Webエンジニアとして未経験ですが、これまでの経験と学んだ技術を組み合わせ、ユーザーの役に立つアプリケーションを作れるエンジニアを目指しています。
+        分からないことはまだまだ多いですが、いちから積み上げていく覚悟です。
+      </p>
+    </div>
+  </section>
+
+
+<section id="skills" class="container py-5">
+  <h2 class="mb-4">Skills！</h2>
+
+  <div class="row g-4">
+
+    <!-- 業務改善スキル -->
+    <div class="col-md-6">
+      <div class="img-behind">
+        <img src="img/tulip.png" class="bg-img">
+        <div class="p-4 border rounded h-100">
+          <h4 class="mb-3">業務改善</h4>
+          <ul>
+            <li>VBA（複数ファイル連携・集計、辞書・クラス、WIA画像圧縮、テプラAPI連携）</li>
+            <li>GAS（バックアップ、入力データの表記統一、JSONファイルを使った表記変換リスト）</li>
+            <li>集計・分析・改善提案やマクロ実装による業務のマニュアル化</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 独学で取り扱ったWebアプリ-->
+    <div class="col-md-6">
+      <div class="p-4 border rounded h-100">
+        <div class="img-behind">
+          <img src="img/horsetail.png" class="bg-img">  
+          <h4 class="mb-3">WEBアプリ開発(独学×AI)</h4>
+          <ul>
+            <li>JavaScript / TypeScript(少し)</li>
+            <li>React（Hooks、コンポーネント設計）</li>
+            <li>Electron（デスクトップアプリ開発）</li>
+            <li>Bootstrap / CSS 基礎</li>
+            <li>Vercel（デプロイ）/ Supabase (データベース)</li>
+          </ul>
+      </div>    
+      </div>
+    </div>
+
+    <!-- プログラミング基礎 -->
+    <div class="col-md-6">
+        <div class="img-behind">
+          <img src="img/sunflower.png" class="bg-img"> 
+          <div class="p-4 border rounded h-100">
+            <h4 class="mb-3">Programming Basics</h4>
+            <ul>
+              <li>C言語、C++の基礎構文（新人として1年間）</li>
+              <li>CAM編集ソフト開発の補助</li>
+              <li>アルゴリズムやデータ構造に触れた経験</li>
+              <li>動作検証</li>
+              <li>リグレッションテスト</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <!-- その他スキル -->
+    <div class="col-md-6">
+              <div class="img-behind">
+          <img src="img/ginkgo.png" class="bg-img"> 
+      <div class="p-4 border rounded h-100">
+        <h4 class="mb-3">Other Skills</h4>
+        <ul>
+        <li>ハードウェア交換 / OSのDual Boot</li>
+          <li>Linux Mint × VS codeでの開発環境</li>
+          <li>Git / GitHub（コード管理・公開）</li>
+          <li>Word /Excel/ PowerPoint/ Access</li>
+          <li>ユーザーサポート・インストラクション</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+
+<section id="works" class="container py-5">
+  <h2 class="mb-4">Works！</h2>
+
+  <!-- Web / Desktop Apps -->
+  <h3 class="mt-4 mb-3">-Web Applications-</h3>
+  <div class="row g-4">
+
+    <div class="col-md-6" data-aos="fade-up" data-aos-once="true">
+      <div class="card h-100">
+        <img src="img/alarm.png" class="card-img-top" alt="Alarm App">
+        <div class="card-body">
+          <h5 class="card-title">Alarm App (React × Electron)</h5>
+          <p class="card-text">
+            ReactとElectronを用いて作成した常駐型アラームアプリ。
+            入力UXの改善や通知ロジックの安定性にこだわり、実用レベルまで仕上げました。
+            意外とアラーム継続時間を指定できるアプリがないので制作してみました。
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/sakamotomelife-maker/Alarm-App" class="btn btn-sm btn-primary">GitHub</a>
+            <a href="https://sakamotomelife-maker.github.io/Alarm-App/" class="btn btn-sm btn-secondary">WEB版</a>
+             <a href="https://yuki-sakamoto.itch.io/alarm-app" class="btn btn-sm btn-secondary">EXE版</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+      <div class="card h-100">
+        <img src="img/calendar.png" class="card-img-top" alt="Calendar App">
+        <div class="card-body">
+          <h5 class="card-title">Calendar App (React)</h5>
+          <p class="card-text">
+            React Hooks を用いて作成したカレンダーアプリ。
+            シンプルなUIと操作性を意識し、日付管理や状態管理を実装しました。
+            Supabaseを用いてデータベース連携も行い、vercelにデプロイして公開。
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/sakamotomelife-maker/calendar-app" class="btn btn-sm btn-primary">GitHub</a>
+         <a href="https://calendar-app-ten-steel.vercel.app/" class="btn btn-sm btn-secondary">WEB版</a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- VBA Tools -->
+  <h3 class="mt-5 mb-3">-VBA Tools-</h3>
+  <div class="row g-4">
+
+    <div class="col-md-4" data-aos="fade-up" data-aos-once="true">
+      <div class="card h-100">
+         <img src="img/photoautoinsert.png" class="card-img-top" alt="insert photo tool">
+        <div class="card-body">
+          <h5 class="card-title">画像一括挿入ツール</h5>
+          <p class="card-text">
+            WIA を用いて画像を一括圧縮＆エクセルに挿入するツール。大量画像の処理時間を大幅に短縮し、
+            現場の作業効率化に貢献しました。
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/sakamotomelife-maker/PhotoAutoInsert-VBA-Program" class="btn btn-sm btn-primary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+      <div class="card h-100">
+        <img src="img/timeandattendance.png" class="card-img-top" alt="time and attendance app">
+        <div class="card-body">
+          <h5 class="card-title">勤怠管理総合ツール</h5>
+          <p class="card-text">
+            マウス操作だけで完結する勤怠登録画面から、集計、電子印鑑の一括押印・PDF出力までを実装した総合ツール。現場の勤怠管理業務の効率化に大きく貢献しました。
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="https://github.com/sakamotomelife-maker/TimeandAttendance-VBA-System" class="btn btn-sm btn-primary">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4" data-aos="fade-up" data-aos-delay="1000" data-aos-once="true">
+      <div class="card h-100">
+        <img src="img/createTepra.png" class="card-img-top" alt="tepra label tool">
+        <div class="card-body">
+          <br><h5 class="card-title">Tepra印刷ツール</h5>
+          <p class="card-text">
+            テプラのAPIを用いて、Excelから印刷するツール。SendKeysを用いたスクレイピングにも対応し、社内システムから印刷したい項目を取得可能。
+            大量のラベル印刷作業を効率化に寄与しました。
+          </p>
+        </div>
+    <div class="card-footer d-flex justify-content-between align-items-center">
+        <a href="https://github.com/sakamotomelife-maker/createTepraWithFolder" class="btn btn-sm btn-primary">GitHub</a>
+        <span>(一部コード抜粋)</span>
+    </div>
+
+      </div>
+    </div>
+  </div>
+
+<div class="card p-4 my-4">
+  <div class="img-behind">
+      <img src="img/chick.png" class="bg-img">
+      <p>上記以外にも、業務の効率化に寄与するVBAツールを多数作成してきました。</p>
+      <ul>
+        <li><strong>支払状況反映マクロ</strong>
+          <ul>      
+            <li>version 1 : VLOOKUP関数ベース（実行後F9キーを押す手間あり）</li>
+            <li>version 2 : for文とif文を用いたコード（少し時間が掛かる）</li>
+            <li>version 3 : 辞書と配列操作による高速処理</li>
+          </ul>
+        </li>
+        <li><strong>年間実績集計マクロ (Dir)</strong></li>
+        <li><strong>請求書一括作成マクロ</strong></li>
+        <li><strong>試験申込登録マクロ</strong> (申込フォームから試験管理表や小口現金出納帳に転記)</li>
+        <li><strong>月次ファイル一括作成マクロ</strong> (各エクセル書類をリセット＆バックアップ)</li>
+        <li><strong>WEBスクレイピングツール</strong></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- GAS Tools -->
+<h3 class="mt-5 mb-3">-Google Apps Script-</h3>
+
+<div class="card">
+  <div class="card-body">
+    <div class="row g-3 align-items-start">
+        <!-- 左カラム -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-once="true">
+          <img src="img/smartadjustment.png" class="img-fluid mb-2" alt="smart adjustment tool">
+          <h5 class="card-title">JSON名寄せツール</h5>
+          <p class="card-text">
+            JSONファイルを読み込み、表記揺れを統一する名寄せツール。
+            ワイルドカードを用いて、データ整形の効率化に役立ちました。
+            ピボットテーブルでの集計精度を向上させることができました。
+          </p>
+        </div>
+        <!-- 右カラム -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
+          <img src="img/json_editor.png" class="img-fluid mb-2" alt="json editor">
+          <h5 class="card-title">JSONエディタ</h5>
+          <p class="card-text">
+            Googleドライブ上ではJSONファイルを直接編集することができないため、
+            JSONエディタをスプレッドシート上にモーダル実装。
+            今後の更新にも動的に対応できます。
+          </p>
+        </div>
+    </div>
+
+    <!-- 疑似フッター（ここに置くと下に落ちない） -->
+    <div class="d-flex justify-content-between align-items-center mt-3 pt-2 border-top">
+      <a href="https://github.com/sakamotomelife-maker/smartAdjustment-GAS-tools" class="btn btn-sm btn-primary">GitHub</a>
+      <span>(一部コード抜粋)</span>
+    </div>
+
+  </div>
+</div>
+
+</section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
